@@ -3,6 +3,39 @@
 そのためプログラムの更新履歴は少ないです.  
 ご了承ください.  
 
+## heatstroke.zipについて
+### 同梱物
+| 名前      | 内容                   |
+| -------- | -------------------------- |
+| WBGTGUI.py       | プログラム本体        |
+| README.txt        | プログラムの簡易説明 |
+|requirements.txt|ライブラリまとめ|
+|熱中症アプリ|プログラムの.exe版と構成ファイル|
+
+### 熱中症対策アプリ
+時間経過による熱中症の危険度の推移をグラフとして出力するアプリです.  
+
+### 使い方
+アプリを起動します.  
+（熱中症アプリ\熱中症アプリ.exe　or WBGTGUI.pyの実行）  
+
+入力画面が出てきます.  
+<img width="250" alt="Image" src="https://github.com/user-attachments/assets/5cc30137-f09f-4378-ba02-a45cf0a1152d" />  
+気温,湿度,風速,活動時間,運動強度  
+を入力します.  
+いずれも整数値です.  
+
+運動強度については以下を参照してください.  
+メッツ表改定,https://e-kennet.mhlw.go.jp/wp/wp-content/themes/targis_mhlw/pdf/mets.pdf, 厚生労働省  
+
+実行ボタンを押せばグラフが表示されます.  
+![Image](https://github.com/user-attachments/assets/d140ee16-dd5d-4b97-90f8-ece4f2473024)  
+横軸は経過時間,縦軸は危険度です.  
+危険度の基底値はその環境下で運動をせずとも存在する普通程度の危険度を指しています.  
+この値を超えるとよりリスクが高いため熱中症の警戒度を上げるべき,と捉えられます.  
+wbgtについては環境省の以下のリンクを参照してください.  
+https://www.wbgt.env.go.jp/wbgt.php  
+
 ## calulus.zipについて
 ### 同梱物
 | 名前      | 内容                   |
